@@ -16,7 +16,7 @@
 ### セットアップ手順
 1.リポジトリをクローンします。
 ```bash
-git clone https://github.com/morihoumatu/blog-platform.git
+git clone https://github.com/ho-mori/blog-platform.git
 ```
 2.依存関係をインストールします。
 ```bash
