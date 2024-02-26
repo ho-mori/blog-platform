@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+./blog_platform_server/blog_platform_server/__pycache__/
 
 # testing
 /coverage
