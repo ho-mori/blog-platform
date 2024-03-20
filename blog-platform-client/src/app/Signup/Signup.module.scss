@@ -1,0 +1,42 @@
+.signupContainer {
+    max-width: 320px;
+    margin: auto;
+    padding: 20px;
+  
+    .formTitle {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .signupInput {
+      margin-bottom: 10px;
+    }
+  
+    .signupButton {
+      margin-top: 16px;
+      background-color: #3498db;
+    }
+  
+    .loginLink {
+      margin-top: 8px;
+  
+      a {
+        color: #1976d2;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    .thirdPartyAuth {
+      margin-top: 16px;
+      background-color: #db4437; // Google風のボタンカラー
+      color: white;
+  
+      &:hover {
+        background-color: darken(#db4437, 5%);
+      }
+    }
+  }
