@@ -1,0 +1,7 @@
+クライアント
+	cd blog-platform-client
+	npm run dev
+サーバー
+	cd blog_platform_server
+	python manage.py migrate
+	python manage.py runserver

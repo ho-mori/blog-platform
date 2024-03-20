@@ -1,0 +1,2 @@
+class SignUpExceptionHandler(Exception):
+    pass

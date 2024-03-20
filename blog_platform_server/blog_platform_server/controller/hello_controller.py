@@ -9,5 +9,5 @@ def hello(request):
 
 def db(request):
     users_json = serializers.serialize('json', dbService(request))
-    print(users_json)
     return HttpResponse(users_json, content_type='application/json')
+
